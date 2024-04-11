@@ -21,6 +21,7 @@ spec:
     rollingUpdate:
       maxUnavailable: 2
       maxSurge: 2
+  #blahblah    
   selector:
     matchLabels:
       app: hello-k8s
